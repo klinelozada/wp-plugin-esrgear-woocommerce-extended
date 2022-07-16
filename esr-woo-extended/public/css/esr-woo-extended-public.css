@@ -1,0 +1,51 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /* Google Fonts */
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+ /* Extended CSS */
+
+.woo-esr-extend-table{
+    width:100%;
+    border-collapse:collapse;
+}
+.woo-esr-extend-table td {
+    width:16%;
+    padding-left:3%;
+    border-left:1px solid #ddd;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:14px;
+    color:#000;
+}
+/* improve visual readability for IE8 and below */
+.woo-esr-extend-table tr{
+    background: #b8d1f3;
+}
+/*  Define the background color for all the ODD table columns  */
+.woo-esr-extend-table tr td:nth-child(odd){
+    background: #f9f9f9;
+    font-weight:600;
+}
+/*  Define the background color for all the EVEN table columns  */
+.woo-esr-extend-table tr td:nth-child(even){
+    background: #fff;
+}
+
+.related-products-title {
+    font-size:18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    color:#000;
+    letter-spacing:0.5px;
+    display:block;
+    line-height:0;
+}
+
+#related-products-link {
+    margin:20px 0 8px;
+}
