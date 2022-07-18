@@ -36,6 +36,7 @@
     background: #fff;
 }
 
+/* Related Products */
 .related-products-title {
     font-size:18px;
     font-family: 'Montserrat', sans-serif;
@@ -45,7 +46,38 @@
     display:block;
     line-height:0;
 }
-
 #related-products-link {
     margin:20px 0 8px;
+}
+
+/* Lightbox */
+.featured-video-lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.8);
+}
+.featured-video-lightbox:target {
+    display: block;
+}
+.featured-video-lightbox span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+a#featured-video-box iframe {
+    width: 50%;
+    height: 520px;
+    margin: 0 auto;
+    display: block;
+    top: 30%;
+    position: relative;
 }
